@@ -1,0 +1,8 @@
+bg-image($url)
+  background: url("../assets/img/" + $url + "@2x.png") no-repeat center / cover
+  @media(-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background: url("../assets/img/" + $url + "@3x.png") no-repeat center / cover
+bg-image2($url)
+  background: url("../../assets/img/" + $url + "@2x.png") no-repeat center / cover
+  @media(-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background: url("../../assets/img/" + $url + "@3x.png") no-repeat center / cover
